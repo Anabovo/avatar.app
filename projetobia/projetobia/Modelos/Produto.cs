@@ -1,5 +1,5 @@
 namespace Modelos
-
+{
 public class Transpotadora
 {
     string nometransportadora;
@@ -42,4 +42,5 @@ public class Transpotadora
      {
         return endereco;
      }
+}
 }

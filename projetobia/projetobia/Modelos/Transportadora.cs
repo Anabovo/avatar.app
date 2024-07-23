@@ -10,9 +10,9 @@ public class Transpotadora
     string email;
     int id;
 
-     public void Setnometransportadora (string NT)
+     public void Setnometransportadora (string nometransportadora)
      {
-        nometransportadora = NT;
+        nometransportadora = nometransportadora;
      }
      public string Getnometransportadora ()
      {
