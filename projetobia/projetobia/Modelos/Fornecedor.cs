@@ -1,21 +1,21 @@
 namespace Modelos
 {
-public class Transpotadora
+public class Fornecedor
 {
-    string nometransportadora;
+    string nomefornecedor;
     string telefone;
     string cnpj;
     string endereco;
     string fornecimento;
     string email;
 
-     public void Setnometransportadora (string NT)
+     public void Setnomefornecedor (string NF)
      {
-        nometransportadora = NT;
+        nomefornecedor = NF;
      }
-     public string Getnometransportadora ()
+     public string Getnomefornecedor ()
      {
-        return nometransportadora;
+        return nomefornecedor;
      }
 
       public void Settelefone (string T)
@@ -26,6 +26,7 @@ public class Transpotadora
      {
         return telefone;
      }
+
       public void Setcnpj (string C)
      {
         cnpj = C;
@@ -34,6 +35,7 @@ public class Transpotadora
      {
         return cnpj;
      }
+
       public void Setendereco (string E)
      {
         endereco = E;
@@ -42,5 +44,24 @@ public class Transpotadora
      {
         return endereco;
      }
+
+      public void Setforncimento (string FN)
+     {
+        fornecimento = FN;
+     }
+     public string Getfornecimento ()
+     {
+        return fornecimento;
+     }
+
+      public void Setemail (string EMAIL)
+     {
+        email = EMAIL;
+     }
+     public string Getemail ()
+     {
+        return email;
+     }
+
  }
 }

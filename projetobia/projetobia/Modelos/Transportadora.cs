@@ -10,9 +10,9 @@ public class Transpotadora
     string email;
     int id;
 
-     public void Setnometransportadora (string nometransportadora)
+     public void Setnometransportadora (string NT)
      {
-        nometransportadora = nometransportadora;
+        nometransportadora = NT;
      }
      public string Getnometransportadora ()
      {
@@ -64,11 +64,11 @@ public class Transpotadora
         return email;
      }
 
-        public void Setid (string I)
+        public void Setid (int I)
      {
        id = I;
      }
-     public string Getid ()
+     public int Getid ()
      {
         return id;
      }

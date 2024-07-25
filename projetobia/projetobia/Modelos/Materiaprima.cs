@@ -1,21 +1,21 @@
 namespace Modelos
 {
-public class Transpotadora
+public class MateriaPrima
 {
-    string nometransportadora;
+    string materiaprima;
     string telefone;
     string cnpj;
     string endereco;
-    string fornecimento;
+    string tipofornecimento;
     string email;
 
-     public void Setnometransportadora (string NT)
+     public void Setmateriaprima (string MP)
      {
-        nometransportadora = NT;
+        materiaprima = MP;
      }
-     public string Getnometransportadora ()
+     public string Getmateriaprima ()
      {
-        return nometransportadora;
+        return materiaprima;
      }
 
       public void Settelefone (string T)
@@ -26,6 +26,7 @@ public class Transpotadora
      {
         return telefone;
      }
+
       public void Setcnpj (string C)
      {
         cnpj = C;
@@ -34,6 +35,7 @@ public class Transpotadora
      {
         return cnpj;
      }
+
       public void Setendereco (string E)
      {
         endereco = E;
@@ -43,5 +45,22 @@ public class Transpotadora
         return endereco;
      }
 
+     public void Setemail (string EMAIL)
+     {
+        email = EMAIL;
+     }
+     public string Getemail ()
+     {
+        return email;
+     }
+
+      public void Settipoforncimento (string TF)
+     {
+        tipofornecimento = TF;
+     }
+     public string Gettipofornecimento ()
+     {
+        return tipofornecimento;
+     }
 }
 }

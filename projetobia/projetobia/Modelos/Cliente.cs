@@ -6,6 +6,7 @@ public class Cliente
     string datadenascimento;
     string cpf;
     string endereco;
+    string telefone;
     int id;
 
      public void Setnome (string N)
@@ -16,6 +17,14 @@ public class Cliente
      {
         return nome;
      }
+      public void Setdatadenascimento (string DN)
+     {
+        datadenascimento = DN;
+     }
+     public string Getdatadenascimento ()
+     {
+        return datadenascimento;
+     }
 
       public void Settelefone (string T)
      {
@@ -25,13 +34,13 @@ public class Cliente
      {
         return telefone;
      }
-      public void Setcnpj (string C)
+      public void Setcpf(string CPF)
      {
-        cnpj = C;
+        cpf = CPF;
      }
      public string Getcnpj ()
      {
-        return cnpj;
+        return cpf;
      }
       public void Setendereco (string E)
      {
@@ -41,11 +50,11 @@ public class Cliente
      {
         return endereco;
      }
-       public void Setid (string I)
+       public void Setid (int I)
      {
        id = I;
      }
-     public string Getid ()
+     public int Getid ()
      {
         return id;
      }

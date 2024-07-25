@@ -1,6 +1,6 @@
 namespace Modelos
 {
-public class Transpotadora
+public class Produto
 {
     string nometransportadora;
     string telefone;

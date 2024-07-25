@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projetobia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a377d0daea61ae150bf07e23917fa10d6397a4c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cfbcafc774925a485f0f62b16d51dfb6a5b963a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("projetobia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projetobia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
