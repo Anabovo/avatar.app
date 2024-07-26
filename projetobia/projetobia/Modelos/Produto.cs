@@ -6,8 +6,11 @@ public class Produto
     string telefone;
     string cnpj;
     string endereco;
-    string fornecimento;
+    string fornecedor;
     string email;
+    string cor;
+    int quantidade;
+    int id;
 
      public void Setnometransportadora (string NT)
      {
@@ -41,6 +44,46 @@ public class Produto
      public string Getendereco ()
      {
         return endereco;
+     }
+      public void Setcor (string COR)
+     {
+        cor = COR;
+     }
+     public string Getcor ()
+     {
+        return cor;
+     }
+      public void Setquantidade (string Q)
+     {
+        quantidade = Q;
+     }
+     public string Getquantidade ()
+     {
+        return quantidade;
+     }
+        public void Setid (int I)
+     {
+       id = I;
+     }
+     public int Getid ()
+     {
+        return id;
+     }
+       public void Setemail (string EMAIL)
+     {
+        email = EMAIL;
+     }
+     public string Getemail ()
+     {
+        return email;
+     }
+       public void Setfornecedor (string F)
+     {
+        fornecedor = F;
+     }
+     public string Getfornecedor ()
+     {
+        return fornecedor;
      }
 }
 }

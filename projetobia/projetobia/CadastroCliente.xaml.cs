@@ -3,9 +3,9 @@ using Microsoft.Maui.Controls;
 
 namespace projetobia
 {
-    public partial class CadastroClientePage : ContentPage
+    public partial class CadastroCliente : ContentPage
     {
-        public CadastroClientePage()
+        public CadastroCliente()
         {
             InitializeComponent();
         }
